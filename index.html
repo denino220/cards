@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Giraffe Species Cards</title>
+  <style>
+    body {
+      background-color: #faf3ee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      width: 220px;
+      height: 260px;
+      border: 2px solid #f9d093;
+      border-radius: 20px;
+      background-color: #fff;
+      text-align: center;
+      padding: 20px 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+
+    .icon {
+      font-size: 50px;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    p.population {
+      font-size: 16px;
+      margin: 10px 0 15px 0;
+      color: #444;
+    }
+
+    .status {
+      padding: 8px 12px;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+      display: inline-block;
+    }
+
+    .endangered { background-color: #fc8d59; }
+    .critical   { background-color: #d73027; }
+    .least      { background-color: #91cf60; }
+
+    .card:hover .status {
+      filter: brightness(1.1);
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <div class="icon">🦒</div>
+  <h3>Masai Giraffe</h3>
+  <p class="population">~35,000</p>
+  <div class="status endangered">Endangered</div>
+</div>
+
+<div class="card">
+  <div class="icon">🦒</div>
+  <h3>Northern Giraffe</h3>
+  <p class="population">~5,900</p>
+  <div class="status critical">Critically Endangered</div>
+</div>
+
+<div class="card">
+  <div class="icon">🦒</div>
+  <h3>Reticulated Giraffe</h3>
+  <p class="population">~16,000</p>
+  <div class="status endangered">Endangered</div>
+</div>
+
+<div class="card">
+  <div class="icon">🦒</div>
+  <h3>Southern Giraffe</h3>
+  <p class="population">~48,000</p>
+  <div class="status least">Least Concern</div>
+</div>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
